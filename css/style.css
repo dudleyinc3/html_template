@@ -8,9 +8,68 @@ body {
 /*Global*/
 
 .container {
-	width: 85%;
+	width: 80%;
 	margin: auto;
 	overflow: hidden;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+}
+
 /*Header*/
+
+header {
+	background: #2d2d4c;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e6291d 5px solid;
+}
+
+header #name_logo{
+float: left;
+}
+
+header #name_logo h1{
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header .highlight, header .current a {
+	color: #e8491d;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
