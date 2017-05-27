@@ -67,7 +67,22 @@ header a:hover {
 
 #showcase {
 	min-height: 400px;
-	background: url("../images/pexels-hall.jpg") no-repeat;
+	background: url("../images/pexels-hall.jpg") no-repeat 0 -80px;
+	text-align: center;
+	color: white;
+	
+}
+
+#showcase h1 {
+	padding-top: 30px;
+	font-size: 38px;
+	letter-spacing: .75px;
+	padding-left: 5px;
+}
+
+#showcase p {
+	font-size: 22px;
+	padding-left: 5px;
 }
 
 
