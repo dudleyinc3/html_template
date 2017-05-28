@@ -8,7 +8,7 @@ body {
 /*Global*/
 
 .container {
-	width: 80%;
+	width: 82%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -66,7 +66,7 @@ header a:hover {
 /*Showcase*/
 
 #showcase {
-	min-height: 400px;
+	min-height: 355px;
 	background: url("../images/pexels-hall.jpg") no-repeat 0 -80px;
 	text-align: center;
 	color: white;
@@ -85,7 +85,39 @@ header a:hover {
 	padding-left: 5px;
 }
 
+#subscribe_slider {
+	padding: 15px;
+	background: #2d2d4c;
+}
 
+#subscribe_slider h1 {
+	float: left;
+	color: #f4f4f4;
+	font-size: 28px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#subscribe_slider form {
+	float: right;
+	margin-top: 18px;
+}
+
+#subscribe_slider input[type="email"] {
+	padding: 4px;
+	height: 20px;
+	width: 230px;
+	border: 1px black solid;
+	border-radius: 5px;
+	background-color: #f4f4f4;
+}
+
+.button_1 {
+    height: 25px;
+    color: #f4f4f4;
+    background: #e8491d;
+    border-radius: 5px;
+}
 
 
 
