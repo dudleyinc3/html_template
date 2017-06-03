@@ -119,33 +119,56 @@ header a:hover {
    width: 25%;
    float: left;
    margin-bottom: 7px;
-   border-bottom: 1px solid #2d2d4c;
+   border-bottom: 1px solid black;
 }
 .slider p {
-   border-top: 3px solid #2d2d4c;
+   border-top: 2px solid black;
    line-height: 68px;
    overflow: hidden;
    display: inline;
    text-align: center;
    font-size: 38px;
    font-weight: bold;
-   color: #2d2d4c;
+   color: #e6291d;
    width: 25%;
    position: absolute;
 }
 
 
 .slide #one {
-   background-color: #e6291d;
+   background-color: #2d2d4c;  
 }
+.slide #one h1{
+   float: left;
+   padding-left: 30px;
+   font-size: 18px/1.5;
+}
+
+.slide span {
+   color: #e8491d;
+}
+
+.slide #one form {
+   float: right;
+   margin-top: 10px;
+   padding-right: 30px;
+}
+
+.slide #one input[type="email"]{
+   padding: 4px;
+   height: 20px;
+   width: 250px;
+   border-radius: 5px;
+}
+
 .slide #two {
-   background-color: #e6291d;
+   background-color: #2d2d4c;
 }
 .slide #three {
-   background-color: #e6291d;
+   background-color: #2d2d4c;
 }
 .slide #four {
-   background-color: #e6291d;
+   background-color: #2d2d4c;
 }
 @keyframes scroll {
    0% {
@@ -181,8 +204,7 @@ header a:hover {
 
 #boxes {
    width: 100%;
-   margin: 0;
-   container-width: 125%;
+   padding-bottom: 30px;
    background: gray;
 }
 
@@ -196,18 +218,21 @@ header a:hover {
 #boxes .box img {
    width: 390px;
    border: 3px solid black;
+   border-radius: 5px;
   
 }
 
 .box h3{
-   padding-top: 30px;
+   padding-top: 21px;
+   font-size: 21px;
 }
 
 footer {
-   padding-top: 30px;
+   padding-top: 25px;
    text-align: center;
    padding-bottom: 25px;
-   background: gray;
+   background: #2d2d4c;
+   color: #e6291d;
 }
 
 
