@@ -283,13 +283,13 @@ background-color:#2d2d4c;
 .slide #one form {
 float:right;
 margin-top: 18px;
-padding-right:30px
+padding-right:40px
 }
 
 .slide #one h1 {
 float:left;
 font-size:18px/1.5;
-padding-left:30px;
+padding-left:40px;
 margin-top: 10px;
 }
 
@@ -465,6 +465,66 @@ width:390px
 font-size:21px;
 padding-top:21px
 }
+
+/* About Page */
+
+#boxes_about .box img{
+   width: 200px;
+}
+
+/* SideBar */
+
+#sidebar {
+   float: right;
+   width: 30%;
+   margin-top: 30px;
+   text-align: center;
+}
+
+#story h1 {
+   font-size: 28px;
+}
+
+
+#story {
+   float: left;
+   width: 65%;
+   margin-top: 30px;
+   margin-left: 5%;
+
+}
+
+#story p {
+   font-size: 18px;
+}
+
+#story #p2 {
+   padding-top: 28px;
+   
+}
+
+#story #mission div{
+   text-align: center;
+   padding-top: 40px;
+   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
 background:#2d2d4c;
