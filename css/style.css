@@ -26,11 +26,25 @@ ul {
 	padding: 0;
 }
 
+.button_1{
+  height:24px;
+  background:#e8491d;
+  border-radius:6px;
+  padding-left: 20px;
+  padding-right:20px;
+  margin-left: 10px;
+  color:#ffffff;
+}
+
 .dark {
    padding: 10px;
    background: #35424a;
    color: #fff;
    margin-top: 15px;
+}
+
+.page-title {
+   font-size: 28px;
 }
 /*Header*/
 
@@ -116,7 +130,6 @@ header a:hover {
 
 /* Pause returns to first slide.  Fix to pause on current slide */
 .slider figure:hover{
-    -webkit-animation: paused;
     animation: paused;    
 }
 .slider div {
@@ -164,7 +177,7 @@ header a:hover {
    padding: 4px;
    height: 20px;
    width: 250px;
-   border-radius: 5px;
+   border-radius: 6px;
 }
 
 .slide #two {
@@ -265,6 +278,20 @@ article#story {
 article#story h1{
    margin-top: 40px;
 }
+
+/* Services */
+ul#services li {
+   padding: 20px;
+   border: #35424a solid 1px;
+   margin-bottom: 8px;
+   background: #e6e6e6;
+}
+
+ul#services h3 {
+   font-size: 22px;
+}
+
+/* Footer */
 
 footer {
    padding-top: 25px;
