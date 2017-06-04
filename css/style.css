@@ -1,4 +1,4 @@
-/* {
+* {
    margin: 0;
    padding: 0;
    list-style: none;
@@ -15,7 +15,7 @@ body {
 
 /*Global*/
 
-/*.container {
+.container {
 	width: 100%;
 	margin: auto;
 	overflow: hidden;
@@ -26,9 +26,15 @@ ul {
 	padding: 0;
 }
 
+.dark {
+   padding: 10px;
+   background: #35424a;
+   color: #fff;
+   margin-top: 15px;
+}
 /*Header*/
 
-/*header {
+header {
 	background: #2d2d4c;
 	color: #ffffff;
 	padding-top: 30px;
@@ -75,7 +81,7 @@ header a:hover {
 
 /*Showcase*/
 
-/*#showcase {
+#showcase {
 	min-height: 355px;
 	background: url("../images/pexels-hall.jpg") no-repeat 0 -80px;
 	text-align: center;
@@ -100,7 +106,7 @@ header a:hover {
 /* Slider */
 
 
-/*.slider figure {
+.slider figure {
    position: absolute;
    width: 400%;
    margin: 0;
@@ -109,7 +115,7 @@ header a:hover {
 }
 
 /* Pause returns to first slide.  Fix to pause on current slide */
-/*.slider figure:hover{
+.slider figure:hover{
     -webkit-animation: paused;
     animation: paused;    
 }
@@ -199,10 +205,10 @@ header a:hover {
       left: -300%;
    }
 }
-*/
+
 /* Boxes */
 
-/*#boxes {
+#boxes {
    width: 100%;
    padding-bottom: 30px;
    background: gray;
@@ -227,6 +233,39 @@ header a:hover {
    font-size: 21px;
 }
 
+/* About Page */
+
+/*#boxes_about .box img{
+   width: 200px;
+}*/
+
+
+/* Sidebar */
+
+aside#sidebar{
+   float: right;
+   width: 25%;
+   padding-top: 20px;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   margin-right: 5%;
+}
+
+/* Story */
+
+article#story {
+   padding-top: 20px;
+   float: left;
+   width: 55%;
+   margin-left: 6%;
+   margin-bottom: 30px;
+
+}
+
+article#story h1{
+   margin-top: 40px;
+}
+
 footer {
    padding-top: 25px;
    text-align: center;
@@ -235,8 +274,25 @@ footer {
    color: #e6291d;
 }
 
-*/
 
+
+
+
+
+
+
+
+
+
+
+
+/*
+* {
+list-style:none;
+margin:0;
+padding:0;
+text-decoration:none
+}
 
 #showcase {
 background:url(../images/pexels-hall.jpg) no-repeat 0 -80px;
@@ -259,12 +315,6 @@ padding-left:1px;
 padding-top:20px
 }
 
-* {
-list-style:none;
-margin:0;
-padding:0;
-text-decoration:none
-}
 
 .container {
 margin:auto;
@@ -467,14 +517,14 @@ padding-top:21px
 }
 
 /* About Page */
-
+/*
 #boxes_about .box img{
    width: 200px;
 }
 
 /* SideBar */
-
-#sidebar {
+/*
+#sidebar aside{
    float: right;
    width: 30%;
    margin-top: 30px;
@@ -489,8 +539,6 @@ padding-top:21px
 #story {
    float: left;
    width: 65%;
-   margin-top: 30px;
-   margin-left: 5%;
 
 }
 

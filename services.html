@@ -7,79 +7,82 @@
    <meta content="John Dudley" name="author">
    <link href="./css/style.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-   <title>Basic HTML Template | Main</title>
+   <title>Basic HTML Template | Services</title>
 </head>
 <body>
    <header>
       <div class="container">
-   	<div  id="name_logo">
-         <h1><span class="highlight">Your </span>name and logo</h1>
+         <div id="name_logo">
+            <h1><span class="highlight">Your</span> name and logo</h1>
+         </div>
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>             
+               <li><a href="about.html">About</a></li>              
+               <li class="current"><a href="services.html">Services</a></li>        
+            </ul>
+         </nav>
       </div>
-      <nav>
-         <ul>
-            <li>
-               <a href="index.html">Home</a>
-            </li>
-            <li>
-               <a href="about.html">About</a>
-            </li>
-            <li class="current">
-               <a href="services.html">Services</a>
-            </li>
-         </ul>
-      </nav>
    </header>
-   <section id="showcase">
-      <div class="container"> 
-         <h1>Your Business Matters</h1>
-         <p>Todays investment is tomorrows return</p>
-   	</div>
-   </section>
 
-  
-     <div class="slider">
-      <div class="slide">
-         <figure>
-            <div id="one">
-               <h1><span>Subscribe</span> to Newsletter</h1>
-               <form>
-                  <input type="email" placeholder="Enter Email...">
-                  <button type="submit" class="button_1">Subscribe</button>
-               </form>
-            </div>
-            <div id="two">
-               <p>Image</p>
-            </div>
-            <div id="three">
-               <p>Form</p>
-            </div>
-            <div id="four">
-               <p>Input</p>
-            </div><!--option <img src="">-->
-         </figure>
-      </div>
+
+    <section id="main">
+      <div class="container">
+         <article id="story">
+            <h1 class="page-title">Services</h1>
+            <ul id="services">
+               <li>
+                  <h3>Drive Traffic</h3>
+                     <p>Cras tempor a dui nec tempor. Pellentesque nibh sapien, consectetur vitae sem vitae.</p>
+                     <p>Call for Quote</p>
+               </li>
+               <li>
+                  <h3>Grow Revenue</h3>
+                     <p>Cras tempor a dui nec tempor. Pellentesque nibh sapien, consectetur vitae sem vitae.</p>
+                     <p>Call for Quote</p>
+               </li>
+               <li>
+                  <h3>New Markets</h3>
+                     <p>Cras tempor a dui nec tempor. Pellentesque nibh sapien, consectetur vitae sem vitae.</p>
+                     <p>Call for Quote</p>
+               </li>
+
+            </ul>
+         
+         </article>
+
+         <aside id="sidebar">
+            <div class="dark">
+            <h3>Contact Us</h3>
+            <form class="contact">
+               <div>
+                  <label>Name</label>
+                  <br>
+                  <input type="text" placeholder="Name">
+               </div>
+               <div>
+                  <label>Email</label>
+                  <br>
+                  <input type="text" placeholder="Email Address">
+               </div>
+               <div>
+                  <label>Message</label>
+                  <br>
+                  <textarea placeholder="Message"></textarea>
+               </div>
+               <button class="button_1" type="Submit">Send</button>
+            </form>
+         </div>
+      </aside>
    </div>
+   
 
 
-      <section id="boxes">
-         <div class="container">
-         <div class="box">
-            <img src="./images/pexels_bulb.jpg" alt="bulbpic">
-            <h3>Product One</h3>
-            <p>Item or service description here</p>
-         </div>
-         <div class="box">
-            <img src="./images/pexels_phone.jpg" alt="phonepic">
-            <h3>Product Two</h3>
-            <p>Item or service description here</p>
-         </div>
-         <div class="box">
-            <img src="./images/pexels_telescope.jpg" alt="telepic">
-            <h3>Product Three</h3>
-            <p>Item or service description here</p>
-         </div>
-      </div>
+
+
+   
    </section>
+
    <footer>
       <p>Sitehype Designs Copyright &copy; 2017</p>
    </footer>
