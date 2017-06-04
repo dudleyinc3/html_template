@@ -270,9 +270,7 @@ article#story {
    padding-top: 20px;
    float: left;
    width: 55%;
-   margin-left: 6%;
-   margin-bottom: 30px;
-
+   margin: 0 0 30px 6%;
 }
 
 article#story h1{
@@ -281,22 +279,51 @@ article#story h1{
 
 /* Services */
 ul#services li {
-   padding: 20px;
-   border: #35424a solid 1px;
-   margin-bottom: 8px;
    background: #e6e6e6;
+   border: #35424a solid 1px;
+   padding: 20px;
+   margin-bottom: 8px;   
 }
 
 ul#services h3 {
    font-size: 22px;
 }
 
+.contact input {
+   width: 70%;
+   border-radius: 5px;
+   padding: 0 8px 5px 10px;
+   margin: 0 0 5px 20px;
+   
+}
+
+.contact textarea {
+   width: 74%;
+   border-radius: 5px;
+   padding-left: 10px;
+   margin: 5px 0 10px 20px;
+}
+
+
+
+.contact {
+   padding-left: 10px;
+}
+
+#sidebar h3 {
+   padding-left: 10px;
+}
+
+#sidebar button {
+   width: 30%;
+   margin: 0 35% 10px 35%;
+}
+
 /* Footer */
 
 footer {
-   padding-top: 25px;
    text-align: center;
-   padding-bottom: 25px;
+   padding: 25px 0 25px 0;
    background: #2d2d4c;
    color: #e6291d;
 }
